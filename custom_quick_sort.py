@@ -1,5 +1,6 @@
 def custom_quick_sort(input_list):
     length = len(input_list)
+    print(length)
     if len(input_list) < 2:
         return input_list
     else:
